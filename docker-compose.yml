@@ -1,0 +1,9 @@
+version: '3'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: ./docker/node/Dockerfile
+    tty: true
+    volumes:
+      - ./src:/app

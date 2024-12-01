@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "include": ["src/sub"],
+  "exclude": ["src/sub/moduleA.ts"]
+}

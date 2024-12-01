@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kanban board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./dist/kanban.js"></script>
+  </head>
+  <body>
+    <!-- タスク入力フォーム -->
+    <form id="task-form">
+      <div class="form-group">
+        <label for="title">タイトル</label>
+        <input
+          id="form-title"
+          type="text"
+          required
+          autofocus
+          pattern=".*\S+.*"
+        />
+      </div>
+      <div class="form-group">
+        <label for="description">内容</label>
+        <textarea id="form-description" rows="3"></textarea>
+      </div>
+      <button type="submit">新規追加</button>
+    </form>
+
+    <!-- コラムの雛形 -->
+    <template id="task-list-template">
+      <div class="tasks">
+        <h2 class="list-title"></h2>
+        <ul id="list"></ul>
+      </div>
+    </template>
+
+    <!-- タスクアイテムの雛形 -->
+    <template id="task-item-template">
+      <li>
+        <h2 class="task-title"></h2>
+        <p class="task-description"></p>
+      </li>
+    </template>
+
+    <!-- ホスト要素 -->
+    <div id="container"></div>
+  </body>
+</html>
