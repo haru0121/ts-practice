@@ -4,9 +4,315 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95330e8-54cf-4fe9-a572-c31511297a60" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e95330e8-54cf-4fe9-a572-c31511297a60" name="変更" comment="node_modulesフォルダをgit管理対象から除外">
+      <change afterPath="$PROJECT_DIR$/src/data/questions.test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/quiz.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1/1-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/1/1-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.1/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.2/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.3/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.4/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.5/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.6/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/interfaces/GameState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/interfaces/Question.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/interfaces/UserUnterface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/models/Game.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/models/Message.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/models/Quiz.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/models/Stage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/10.1.4.7/utils/CLI.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/data/questions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/data/questions.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/src/hangman.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/hangman/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.2/decorator/bindThis.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.2/kanban.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.3/decorator/bindThis.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.3/kanban.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.4/decorator/bindThis.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.4/kanban.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.5/decorator/bindThis.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/10.2.4.5/kanban.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/decorator/bindThis.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/src/kanban.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/10/kanban/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/2/2-7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-12.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-13.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-14.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-15.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-17.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-18.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-19.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-20.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-21.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-22.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-23.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-24.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-25.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-26.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-27.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-28.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-29.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-30.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-31.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-32.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-33.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-34.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-35.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-36.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-37.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-38.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-39.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-40.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-41.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-42.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-43.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-44.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-45.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-46.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-47.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-48.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-49.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-50.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-51.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-52.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-53.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-54.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-55.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-56.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-57.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-58.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/3/3-9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-12.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-13.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-14.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-15.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-17.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-18.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-19.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-20.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-21.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-22.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-23.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-24.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-25.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-26.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-27.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-28.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-29.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-30.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-31.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-32.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-33.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-34.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-35.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-36.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-37.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-38.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-39.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-40.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-41.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-42.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-43.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4/4-9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-12.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-13.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-14.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-15.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-17.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-18.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-19.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-20.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-21.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-22.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-23.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-24.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-25.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-26.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-27.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-28.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-29.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-30.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-31.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-32.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-33.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-34.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-35.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-36.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-37.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-38.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-39.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-40.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-41.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-42.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-43.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-44.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-45.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-46.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-47.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/5/5-9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-12.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-13.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-14.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-15.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-17.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-18.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-19.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-20.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-21.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-22.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-23.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-24.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-25.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-26.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/6/6-9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-10.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-11.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-12.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-13.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-14.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-15.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-16.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-17.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-18.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-19.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-20.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-21.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-22.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-23.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-24.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-25.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-3.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-8.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/7/7-9.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-11_13/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-11_13/my-is-odd.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-14_15/8-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-14_15/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-14_15/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-1_2/calc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-1_2/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-3_4_5/calc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-3_4_5/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-6/calc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-6/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-7_8/scriptA.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-7_8/scriptB.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/8/8-9_10/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-10_11/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-10_11/sub/moduleC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-12.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-13/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-13/tsconfigA.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-13/tsconfigB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-4.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-5.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-6.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-7.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-8_9/app.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9/9-8_9/sub/moduleC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/24/import.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/24/myModule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/25/import.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/25/myModule.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/27.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/29.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/30.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaScript Lessons/9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,19 +325,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "haru0121"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haru0121&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/haru0121/ts-practice.git",
-    "accountId": "b4434131-e438-4d75-a377-739727a580c3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haru0121/ts-practice.git&quot;,
+    &quot;accountId&quot;: &quot;b4434131-e438-4d75-a377-739727a580c3&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/opt/homebrew/Cellar/php/8.3.9/bin/php" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -42,21 +351,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "aws.toolkit",
-    "ts.external.directory.path": "/Users/haru/Documents/Developer/ts-practice/src/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;aws.toolkit&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/haru/Documents/Developer/ts-practice/src/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,11 +383,35 @@
       <option name="presentableId" value="Default" />
       <updated>1732963443026</updated>
       <workItem from="1732963444091" duration="8464000" />
-      <workItem from="1733011758553" duration="107000" />
+      <workItem from="1733011758553" duration="9517000" />
+      <workItem from="1733204886239" duration="26000" />
+      <workItem from="1733280662187" duration="11720000" />
     </task>
+    <task id="LOCAL-00001" summary="firstcommit">
+      <option name="closed" value="true" />
+      <created>1733011886934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733011886934</updated>
+    </task>
+    <task id="LOCAL-00002" summary="node_modulesフォルダをgit管理対象から除外">
+      <option name="closed" value="true" />
+      <created>1733012018895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733012018895</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstcommit" />
+    <MESSAGE value="node_modulesフォルダをgit管理対象から除外" />
+    <option name="LAST_COMMIT_MESSAGE" value="node_modulesフォルダをgit管理対象から除外" />
   </component>
 </project>

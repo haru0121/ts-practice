@@ -1,0 +1,6 @@
+[
+  {"word": "number","hint": "数値を表す基本的な値"},
+  {"word": "any","hint": "どんな型でも受け入れる"},
+  {"word": "unknown","hint": "不明な型"},
+    {"word": "void","hint": "何も返さない"}
+]
